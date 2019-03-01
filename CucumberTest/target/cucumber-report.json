@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "CLONE - Cucumber: Test Contact Form1",
+        "description": "",
+        "id": ";clone---cucumber:-test-contact-form1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11563493978,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on login page",
+            "match": {
+              "location": "Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265875675,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username",
+            "match": {
+              "location": "Steps.user_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 228459774,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password",
+            "match": {
+              "location": "Steps.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2727138832,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "Steps.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27535012,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User logged in successfully",
+            "match": {
+              "location": "Steps.user_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@XRAYT-126"
+          },
+          {
+            "line": 4,
+            "name": "@XRAYT-134"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "CLONE - Cucumber: Test Contact Form2",
+        "description": "",
+        "id": ";clone---cucumber:-test-contact-form2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8575847912,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on login page",
+            "match": {
+              "location": "Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 374894925,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters incorrect username",
+            "match": {
+              "location": "Steps.user_enters_incorrect_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 242158769,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters password",
+            "match": {
+              "location": "Steps.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2989196915,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "Steps.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36074433,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should not be logged in successfully",
+            "match": {
+              "location": "Steps.user_should_not_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@XRAYT-133"
+          },
+          {
+            "line": 14,
+            "name": "@XRAYT-134"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "testcases/LoginTestCases.feature"
+  }
+]
