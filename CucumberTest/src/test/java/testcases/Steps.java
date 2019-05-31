@@ -40,7 +40,9 @@ public class Steps {
 	@Then("^User logged in successfully$")
 	public void user_logged_in_successfully() throws Throwable {
 		Assert.assertFalse(Compare.validatePageURL(driver, "https://www.facebook.com/"));
+		driver.close();
 	}
+	
 
 	@When("^User enters incorrect username$")
 	public void user_enters_incorrect_username() throws Throwable {
@@ -51,6 +53,7 @@ public class Steps {
 	@Then("^User should not be logged in successfully$")
 	public void user_should_not_be_logged_in_successfully() throws Throwable {
 		Assert.assertFalse(Compare.validatePageURL(driver, "https://www.facebook.com/"));
+		driver.close();
 	}
 
 }

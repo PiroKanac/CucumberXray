@@ -53,35 +53,35 @@ formatter.match({
   "location": "Steps.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 11563493978,
+  "duration": 8039948928,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_enters_username()"
 });
 formatter.result({
-  "duration": 265875675,
+  "duration": 475435091,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_enters_password()"
 });
 formatter.result({
-  "duration": 228459774,
+  "duration": 230216569,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_clicks_on_signin_button()"
 });
 formatter.result({
-  "duration": 2727138832,
+  "duration": 2333118480,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_logged_in_successfully()"
 });
 formatter.result({
-  "duration": 27535012,
+  "duration": 2726969901,
   "status": "passed"
 });
 formatter.scenario({
@@ -131,35 +131,35 @@ formatter.match({
   "location": "Steps.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 8575847912,
+  "duration": 5471172573,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_enters_incorrect_username()"
 });
 formatter.result({
-  "duration": 374894925,
+  "duration": 506570058,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_enters_password()"
 });
 formatter.result({
-  "duration": 242158769,
+  "duration": 228227463,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_clicks_on_signin_button()"
 });
 formatter.result({
-  "duration": 2989196915,
+  "duration": 2373104870,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_not_be_logged_in_successfully()"
 });
 formatter.result({
-  "duration": 36074433,
+  "duration": 2491495232,
   "status": "passed"
 });
 });
